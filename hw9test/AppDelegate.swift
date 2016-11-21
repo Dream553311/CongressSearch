@@ -16,8 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-//        // Override point for customization after application launch.
-//        //change tab bar font size
+        // Override point for customization after application launch.
+        //change tab bar font size
         UITabBarItem.appearance().setTitleTextAttributes([NSFontAttributeName: UIFont.systemFont(ofSize: 20)], for: UIControlState.normal)
 
         // creat viewControllers ?
