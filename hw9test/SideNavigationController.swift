@@ -1,14 +1,14 @@
 //
-//  LeftViewController.swift
+//  SideNavigationController.swift
 //  hw9test
 //
-//  Created by Jiayu Li on 21/11/2016.
+//  Created by Jiayu Li on 22/11/2016.
 //  Copyright © 2016 Jiayu Li. All rights reserved.
 //
 
 import UIKit
 
-class LeftViewController: UIViewController {
+class SideNavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

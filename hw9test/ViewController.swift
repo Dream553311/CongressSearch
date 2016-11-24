@@ -7,9 +7,8 @@
 //
 
 import UIKit
-import SlideMenuControllerSwift//change
 
-class ViewController: UIViewController{
+class ViewController: UIViewController {
     
 
     override func viewDidLoad() {
@@ -21,20 +20,7 @@ class ViewController: UIViewController{
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-}
 
-class ContainerViewController: SlideMenuController {
-    
-    override func awakeFromNib() {
-        if let controller = self.storyboard?.instantiateViewController(withIdentifier: "Main") {
-            self.mainViewController = controller
-        }
-        if let controller = self.storyboard?.instantiateViewController(withIdentifier: "Left") {
-            self.leftViewController = controller
-        }
-        super.awakeFromNib()
-    }
     
 }
 
