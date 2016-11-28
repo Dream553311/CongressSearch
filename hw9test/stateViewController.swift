@@ -1,14 +1,14 @@
 //
-//  AboutViewController.swift
+//  stateViewController.swift
 //  hw9test
 //
-//  Created by Jiayu Li on 26/11/2016.
+//  Created by Jiayu Li on 27/11/2016.
 //  Copyright © 2016 Jiayu Li. All rights reserved.
 //
 
 import UIKit
 
-class AboutViewController: UIViewController {
+class stateViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

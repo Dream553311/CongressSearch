@@ -1,5 +1,5 @@
 //
-//  AboutViewController.swift
+//  about1ViewController.swift
 //  hw9test
 //
 //  Created by Jiayu Li on 26/11/2016.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AboutViewController: UIViewController {
+class about1ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -7,14 +7,9 @@
 //
 
 import UIKit
-import SlideMenuControllerSwift
 
 class FavViewController: UIViewController {
 
-    @IBAction func menubutton(_ sender: UIButton) {
-        self.slideMenuController()?.openLeft()
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
